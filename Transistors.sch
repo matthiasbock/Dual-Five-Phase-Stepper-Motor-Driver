@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:L298
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -32,12 +31,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Stepper Motor Driver-cache
+LIBS:L298
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -377,25 +376,23 @@ F 3 "" H 6950 3150 50  0001 C CNN
 	1    6950 3150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 1500 0    60   Input ~ 0
-T1_Input_1
-Text GLabel 1600 1600 0    60   Input ~ 0
+Text HLabel 1600 1600 0    60   Input ~ 0
 T1_Enable_A
-Text GLabel 1600 1700 0    60   Input ~ 0
+Text HLabel 1600 1700 0    60   Input ~ 0
 T1_Input_2
-Text GLabel 1600 1900 0    60   Input ~ 0
+Text HLabel 1600 1900 0    60   Input ~ 0
 T1_Input_3
-Text GLabel 1600 2000 0    60   Input ~ 0
+Text HLabel 1600 2000 0    60   Input ~ 0
 T1_Enable_B
-Text GLabel 1600 2100 0    60   Input ~ 0
+Text HLabel 1600 2100 0    60   Input ~ 0
 T1_Input_4
-Text GLabel 3650 1500 2    60   Input ~ 0
+Text HLabel 3650 1500 2    60   Input ~ 0
 T1_Output_1
-Text GLabel 3650 1600 2    60   Input ~ 0
+Text HLabel 3650 1600 2    60   Input ~ 0
 T1_Output_2
-Text GLabel 3650 1900 2    60   Input ~ 0
+Text HLabel 3650 1900 2    60   Input ~ 0
 T1_Output_3
-Text GLabel 3650 2000 2    60   Input ~ 0
+Text HLabel 3650 2000 2    60   Input ~ 0
 T1_Output_4
 Wire Wire Line
 	1600 1500 1900 1500
@@ -417,17 +414,17 @@ Wire Wire Line
 	3400 1900 3650 1900
 Wire Wire Line
 	3400 2000 3650 2000
-Text GLabel 1600 3600 0    60   Input ~ 0
+Text HLabel 1600 3600 0    60   Input ~ 0
 T2_Input_1
-Text GLabel 1600 3700 0    60   Input ~ 0
+Text HLabel 1600 3700 0    60   Input ~ 0
 T2_Enable_A
-Text GLabel 1600 3800 0    60   Input ~ 0
+Text HLabel 1600 3800 0    60   Input ~ 0
 T2_Input_2
-Text GLabel 1600 4000 0    60   Input ~ 0
+Text HLabel 1600 4000 0    60   Input ~ 0
 T2_Input_3
-Text GLabel 1600 4100 0    60   Input ~ 0
+Text HLabel 1600 4100 0    60   Input ~ 0
 T2_Enable_B
-Text GLabel 1600 4200 0    60   Input ~ 0
+Text HLabel 1600 4200 0    60   Input ~ 0
 T2_Input_4
 Wire Wire Line
 	1600 3600 1900 3600
@@ -441,17 +438,17 @@ Wire Wire Line
 	1600 4100 1900 4100
 Wire Wire Line
 	1600 4200 1900 4200
-Text GLabel 1600 5700 0    60   Input ~ 0
+Text HLabel 1600 5700 0    60   Input ~ 0
 T3_Input_1
-Text GLabel 1600 5800 0    60   Input ~ 0
+Text HLabel 1600 5800 0    60   Input ~ 0
 T3_Enable_A
-Text GLabel 1600 5900 0    60   Input ~ 0
+Text HLabel 1600 5900 0    60   Input ~ 0
 T3_Input_2
-Text GLabel 1600 6100 0    60   Input ~ 0
+Text HLabel 1600 6100 0    60   Input ~ 0
 T3_Input_3
-Text GLabel 1600 6200 0    60   Input ~ 0
+Text HLabel 1600 6200 0    60   Input ~ 0
 T3_Enable_B
-Text GLabel 1600 6300 0    60   Input ~ 0
+Text HLabel 1600 6300 0    60   Input ~ 0
 T3_Input_4
 Wire Wire Line
 	1600 5700 1900 5700
@@ -465,13 +462,13 @@ Wire Wire Line
 	1600 6200 1900 6200
 Wire Wire Line
 	1600 6300 1900 6300
-Text GLabel 3650 3600 2    60   Input ~ 0
+Text HLabel 3650 3600 2    60   Input ~ 0
 T2_Output_1
-Text GLabel 3650 3700 2    60   Input ~ 0
+Text HLabel 3650 3700 2    60   Input ~ 0
 T2_Output_2
-Text GLabel 3650 4000 2    60   Input ~ 0
+Text HLabel 3650 4000 2    60   Input ~ 0
 T2_Output_3
-Text GLabel 3650 4100 2    60   Input ~ 0
+Text HLabel 3650 4100 2    60   Input ~ 0
 T2_Output_4
 Wire Wire Line
 	3400 3600 3650 3600
@@ -481,13 +478,13 @@ Wire Wire Line
 	3400 4000 3650 4000
 Wire Wire Line
 	3400 4100 3650 4100
-Text GLabel 3650 5700 2    60   Input ~ 0
+Text HLabel 3650 5700 2    60   Input ~ 0
 T3_Output_1
-Text GLabel 3650 5800 2    60   Input ~ 0
+Text HLabel 3650 5800 2    60   Input ~ 0
 T3_Output_2
-Text GLabel 3650 6100 2    60   Input ~ 0
+Text HLabel 3650 6100 2    60   Input ~ 0
 T3_Output_3
-Text GLabel 3650 6200 2    60   Input ~ 0
+Text HLabel 3650 6200 2    60   Input ~ 0
 T3_Output_4
 Wire Wire Line
 	3400 5700 3650 5700
@@ -497,13 +494,13 @@ Wire Wire Line
 	3400 6100 3650 6100
 Wire Wire Line
 	3400 6200 3650 6200
-Text GLabel 8100 1600 2    60   Input ~ 0
+Text HLabel 8100 1600 2    60   Input ~ 0
 T4_Output_1
-Text GLabel 8100 1700 2    60   Input ~ 0
+Text HLabel 8100 1700 2    60   Input ~ 0
 T4_Output_2
-Text GLabel 8100 2000 2    60   Input ~ 0
+Text HLabel 8100 2000 2    60   Input ~ 0
 T4_Output_3
-Text GLabel 8100 2100 2    60   Input ~ 0
+Text HLabel 8100 2100 2    60   Input ~ 0
 T4_Output_4
 Wire Wire Line
 	7850 1600 8100 1600
@@ -513,13 +510,13 @@ Wire Wire Line
 	7850 2000 8100 2000
 Wire Wire Line
 	7850 2100 8100 2100
-Text GLabel 8100 3650 2    60   Input ~ 0
+Text HLabel 8100 3650 2    60   Input ~ 0
 T5_Output_1
-Text GLabel 8100 3750 2    60   Input ~ 0
+Text HLabel 8100 3750 2    60   Input ~ 0
 T5_Output_2
-Text GLabel 8100 4050 2    60   Input ~ 0
+Text HLabel 8100 4050 2    60   Input ~ 0
 T5_Output_3
-Text GLabel 8100 4150 2    60   Input ~ 0
+Text HLabel 8100 4150 2    60   Input ~ 0
 T5_Output_4
 Wire Wire Line
 	7850 3650 8100 3650
@@ -529,17 +526,17 @@ Wire Wire Line
 	7850 4050 8100 4050
 Wire Wire Line
 	7850 4150 8100 4150
-Text GLabel 6050 1600 0    60   Input ~ 0
+Text HLabel 6050 1600 0    60   Input ~ 0
 T4_Input_1
-Text GLabel 6050 1700 0    60   Input ~ 0
+Text HLabel 6050 1700 0    60   Input ~ 0
 T4_Enable_A
-Text GLabel 6050 1800 0    60   Input ~ 0
+Text HLabel 6050 1800 0    60   Input ~ 0
 T4_Input_2
-Text GLabel 6050 2000 0    60   Input ~ 0
+Text HLabel 6050 2000 0    60   Input ~ 0
 T4_Input_3
-Text GLabel 6050 2100 0    60   Input ~ 0
+Text HLabel 6050 2100 0    60   Input ~ 0
 T4_Enable_B
-Text GLabel 6050 2200 0    60   Input ~ 0
+Text HLabel 6050 2200 0    60   Input ~ 0
 T4_Input_4
 Wire Wire Line
 	6050 1600 6350 1600
@@ -553,17 +550,17 @@ Wire Wire Line
 	6050 2100 6350 2100
 Wire Wire Line
 	6050 2200 6350 2200
-Text GLabel 6050 3650 0    60   Input ~ 0
+Text HLabel 6050 3650 0    60   Input ~ 0
 T5_Input_1
-Text GLabel 6050 3750 0    60   Input ~ 0
+Text HLabel 6050 3750 0    60   Input ~ 0
 T5_Enable_A
-Text GLabel 6050 3850 0    60   Input ~ 0
+Text HLabel 6050 3850 0    60   Input ~ 0
 T5_Input_2
-Text GLabel 6050 4050 0    60   Input ~ 0
+Text HLabel 6050 4050 0    60   Input ~ 0
 T5_Input_3
-Text GLabel 6050 4150 0    60   Input ~ 0
+Text HLabel 6050 4150 0    60   Input ~ 0
 T5_Enable_B
-Text GLabel 6050 4250 0    60   Input ~ 0
+Text HLabel 6050 4250 0    60   Input ~ 0
 T5_Input_4
 Wire Wire Line
 	6050 3650 6350 3650
@@ -577,4 +574,6 @@ Wire Wire Line
 	6050 4150 6350 4150
 Wire Wire Line
 	6050 4250 6350 4250
+Text HLabel 1600 1500 0    60   Input ~ 0
+T1_Input_1
 $EndSCHEMATC
