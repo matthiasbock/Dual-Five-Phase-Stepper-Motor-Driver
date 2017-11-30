@@ -32,11 +32,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:L298
+LIBS:Transistors-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -46,534 +47,284 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L L298 T1
-U 1 1 5A1C4208
-P 2700 1800
-F 0 "T1" H 3100 1100 60  0000 C CNN
-F 1 "L298" H 2200 2500 60  0000 C CNN
-F 2 "Multiwatt15" H 1900 900 60  0001 C CNN
-F 3 "" H 2700 1800 60  0001 C CNN
-	1    2700 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L L298 T2
-U 1 1 5A1C7A15
-P 2700 3900
-F 0 "T2" H 3100 3200 60  0000 C CNN
-F 1 "L298" H 2200 4600 60  0000 C CNN
-F 2 "Multiwatt15" H 1900 3000 60  0001 C CNN
-F 3 "" H 2700 3900 60  0001 C CNN
-	1    2700 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L L298 T3
-U 1 1 5A1C7B72
-P 2700 6000
-F 0 "T3" H 3100 5300 60  0000 C CNN
-F 1 "L298" H 2200 6700 60  0000 C CNN
-F 2 "Multiwatt15" H 1900 5100 60  0001 C CNN
-F 3 "" H 2700 6000 60  0001 C CNN
-	1    2700 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L L298 T4
-U 1 1 5A1C7CA7
-P 7150 1900
-F 0 "T4" H 7550 1200 60  0000 C CNN
-F 1 "L298" H 6650 2600 60  0000 C CNN
-F 2 "Multiwatt15" H 6350 1000 60  0001 C CNN
-F 3 "" H 7150 1900 60  0001 C CNN
-	1    7150 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L L298 T5
-U 1 1 5A1C7D2E
-P 7150 3950
-F 0 "T5" H 7550 3250 60  0000 C CNN
-F 1 "L298" H 6650 4650 60  0000 C CNN
-F 2 "Multiwatt15" H 6350 3050 60  0001 C CNN
-F 3 "" H 7150 3950 60  0001 C CNN
-	1    7150 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C819E
-P 2500 2600
-F 0 "#PWR?" H 2500 2350 50  0001 C CNN
-F 1 "GND" H 2500 2450 50  0000 C CNN
-F 2 "" H 2500 2600 50  0001 C CNN
-F 3 "" H 2500 2600 50  0001 C CNN
-	1    2500 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C81DA
-P 2700 2600
-F 0 "#PWR?" H 2700 2350 50  0001 C CNN
-F 1 "GND" H 2700 2450 50  0000 C CNN
-F 2 "" H 2700 2600 50  0001 C CNN
-F 3 "" H 2700 2600 50  0001 C CNN
-	1    2700 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C81F4
-P 2800 2600
-F 0 "#PWR?" H 2800 2350 50  0001 C CNN
-F 1 "GND" H 2800 2450 50  0000 C CNN
-F 2 "" H 2800 2600 50  0001 C CNN
-F 3 "" H 2800 2600 50  0001 C CNN
-	1    2800 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C8498
-P 6950 2700
-F 0 "#PWR?" H 6950 2450 50  0001 C CNN
-F 1 "GND" H 6950 2550 50  0000 C CNN
-F 2 "" H 6950 2700 50  0001 C CNN
-F 3 "" H 6950 2700 50  0001 C CNN
-	1    6950 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C84B2
-P 7150 2700
-F 0 "#PWR?" H 7150 2450 50  0001 C CNN
-F 1 "GND" H 7150 2550 50  0000 C CNN
-F 2 "" H 7150 2700 50  0001 C CNN
-F 3 "" H 7150 2700 50  0001 C CNN
-	1    7150 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C84CC
-P 7250 2700
-F 0 "#PWR?" H 7250 2450 50  0001 C CNN
-F 1 "GND" H 7250 2550 50  0000 C CNN
-F 2 "" H 7250 2700 50  0001 C CNN
-F 3 "" H 7250 2700 50  0001 C CNN
-	1    7250 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C8630
-P 2500 6800
-F 0 "#PWR?" H 2500 6550 50  0001 C CNN
-F 1 "GND" H 2500 6650 50  0000 C CNN
-F 2 "" H 2500 6800 50  0001 C CNN
-F 3 "" H 2500 6800 50  0001 C CNN
-	1    2500 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C864A
-P 2700 6800
-F 0 "#PWR?" H 2700 6550 50  0001 C CNN
-F 1 "GND" H 2700 6650 50  0000 C CNN
-F 2 "" H 2700 6800 50  0001 C CNN
-F 3 "" H 2700 6800 50  0001 C CNN
-	1    2700 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C8664
-P 2800 6800
-F 0 "#PWR?" H 2800 6550 50  0001 C CNN
-F 1 "GND" H 2800 6650 50  0000 C CNN
-F 2 "" H 2800 6800 50  0001 C CNN
-F 3 "" H 2800 6800 50  0001 C CNN
-	1    2800 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5A1C8A80
-P 2500 1000
-F 0 "#PWR?" H 2500 850 50  0001 C CNN
-F 1 "+5V" H 2500 1140 50  0000 C CNN
-F 2 "" H 2500 1000 50  0001 C CNN
-F 3 "" H 2500 1000 50  0001 C CNN
-	1    2500 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C8B95
-P 2500 4700
-F 0 "#PWR?" H 2500 4450 50  0001 C CNN
-F 1 "GND" H 2500 4550 50  0000 C CNN
-F 2 "" H 2500 4700 50  0001 C CNN
-F 3 "" H 2500 4700 50  0001 C CNN
-	1    2500 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C8BAF
-P 2700 4700
-F 0 "#PWR?" H 2700 4450 50  0001 C CNN
-F 1 "GND" H 2700 4550 50  0000 C CNN
-F 2 "" H 2700 4700 50  0001 C CNN
-F 3 "" H 2700 4700 50  0001 C CNN
-	1    2700 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C8BC9
-P 2800 4700
-F 0 "#PWR?" H 2800 4450 50  0001 C CNN
-F 1 "GND" H 2800 4550 50  0000 C CNN
-F 2 "" H 2800 4700 50  0001 C CNN
-F 3 "" H 2800 4700 50  0001 C CNN
-	1    2800 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C8BE3
-P 6950 4750
-F 0 "#PWR?" H 6950 4500 50  0001 C CNN
-F 1 "GND" H 6950 4600 50  0000 C CNN
-F 2 "" H 6950 4750 50  0001 C CNN
-F 3 "" H 6950 4750 50  0001 C CNN
-	1    6950 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C8BFD
-P 7150 4750
-F 0 "#PWR?" H 7150 4500 50  0001 C CNN
-F 1 "GND" H 7150 4600 50  0000 C CNN
-F 2 "" H 7150 4750 50  0001 C CNN
-F 3 "" H 7150 4750 50  0001 C CNN
-	1    7150 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A1C8C17
-P 7250 4750
-F 0 "#PWR?" H 7250 4500 50  0001 C CNN
-F 1 "GND" H 7250 4600 50  0000 C CNN
-F 2 "" H 7250 4750 50  0001 C CNN
-F 3 "" H 7250 4750 50  0001 C CNN
-	1    7250 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDD #PWR?
-U 1 1 5A1C8D87
-P 2800 1000
-F 0 "#PWR?" H 2800 850 50  0001 C CNN
-F 1 "VDD" H 2800 1150 50  0000 C CNN
-F 2 "" H 2800 1000 50  0001 C CNN
-F 3 "" H 2800 1000 50  0001 C CNN
-	1    2800 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDD #PWR?
-U 1 1 5A1C8F51
-P 2800 3100
-F 0 "#PWR?" H 2800 2950 50  0001 C CNN
-F 1 "VDD" H 2800 3250 50  0000 C CNN
-F 2 "" H 2800 3100 50  0001 C CNN
-F 3 "" H 2800 3100 50  0001 C CNN
-	1    2800 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDD #PWR?
-U 1 1 5A1C8F6B
-P 7250 1100
-F 0 "#PWR?" H 7250 950 50  0001 C CNN
-F 1 "VDD" H 7250 1250 50  0000 C CNN
-F 2 "" H 7250 1100 50  0001 C CNN
-F 3 "" H 7250 1100 50  0001 C CNN
-	1    7250 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDD #PWR?
-U 1 1 5A1C8F85
-P 7250 3150
-F 0 "#PWR?" H 7250 3000 50  0001 C CNN
-F 1 "VDD" H 7250 3300 50  0000 C CNN
-F 2 "" H 7250 3150 50  0001 C CNN
-F 3 "" H 7250 3150 50  0001 C CNN
-	1    7250 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L VDD #PWR?
-U 1 1 5A1C8FA4
-P 2800 5200
-F 0 "#PWR?" H 2800 5050 50  0001 C CNN
-F 1 "VDD" H 2800 5350 50  0000 C CNN
-F 2 "" H 2800 5200 50  0001 C CNN
-F 3 "" H 2800 5200 50  0001 C CNN
-	1    2800 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5A1C90F4
-P 2500 3100
-F 0 "#PWR?" H 2500 2950 50  0001 C CNN
-F 1 "+5V" H 2500 3240 50  0000 C CNN
-F 2 "" H 2500 3100 50  0001 C CNN
-F 3 "" H 2500 3100 50  0001 C CNN
-	1    2500 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5A1C910E
-P 2500 5200
-F 0 "#PWR?" H 2500 5050 50  0001 C CNN
-F 1 "+5V" H 2500 5340 50  0000 C CNN
-F 2 "" H 2500 5200 50  0001 C CNN
-F 3 "" H 2500 5200 50  0001 C CNN
-	1    2500 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5A1C9128
-P 6950 1100
-F 0 "#PWR?" H 6950 950 50  0001 C CNN
-F 1 "+5V" H 6950 1240 50  0000 C CNN
-F 2 "" H 6950 1100 50  0001 C CNN
-F 3 "" H 6950 1100 50  0001 C CNN
-	1    6950 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5A1C9142
-P 6950 3150
-F 0 "#PWR?" H 6950 3000 50  0001 C CNN
-F 1 "+5V" H 6950 3290 50  0000 C CNN
-F 2 "" H 6950 3150 50  0001 C CNN
-F 3 "" H 6950 3150 50  0001 C CNN
-	1    6950 3150
-	1    0    0    -1  
-$EndComp
-Text HLabel 1600 1600 0    60   Input ~ 0
+Text GLabel 2650 1900 0    60   Input ~ 0
 T1_Enable_A
-Text HLabel 1600 1700 0    60   Input ~ 0
+Text GLabel 2650 2000 0    60   Input ~ 0
 T1_Input_2
-Text HLabel 1600 1900 0    60   Input ~ 0
+Text GLabel 2650 2200 0    60   Input ~ 0
 T1_Input_3
-Text HLabel 1600 2000 0    60   Input ~ 0
+Text GLabel 2650 2300 0    60   Input ~ 0
 T1_Enable_B
-Text HLabel 1600 2100 0    60   Input ~ 0
+Text GLabel 2650 2400 0    60   Input ~ 0
 T1_Input_4
-Text HLabel 3650 1500 2    60   Input ~ 0
+Text GLabel 4450 1850 2    60   Input ~ 0
 T1_Output_1
-Text HLabel 3650 1600 2    60   Input ~ 0
+Text GLabel 4450 1950 2    60   Input ~ 0
 T1_Output_2
-Text HLabel 3650 1900 2    60   Input ~ 0
+Text GLabel 4450 2250 2    60   Input ~ 0
 T1_Output_3
-Text HLabel 3650 2000 2    60   Input ~ 0
+Text GLabel 4450 2350 2    60   Input ~ 0
 T1_Output_4
 Wire Wire Line
-	1600 1500 1900 1500
+	2650 1800 2950 1800
 Wire Wire Line
-	1600 1600 1900 1600
+	2650 1900 2950 1900
 Wire Wire Line
-	1600 1700 1900 1700
+	2650 2000 2950 2000
 Wire Wire Line
-	1600 1900 1900 1900
+	2650 2200 2950 2200
 Wire Wire Line
-	1600 2000 1900 2000
+	2650 2300 2950 2300
 Wire Wire Line
-	1600 2100 1900 2100
+	2650 2400 2950 2400
 Wire Wire Line
-	3400 1500 3650 1500
+	4200 1850 4450 1850
 Wire Wire Line
-	3400 1600 3650 1600
+	4200 1950 4450 1950
 Wire Wire Line
-	3400 1900 3650 1900
+	4200 2250 4450 2250
 Wire Wire Line
-	3400 2000 3650 2000
-Text HLabel 1600 3600 0    60   Input ~ 0
+	4200 2350 4450 2350
+Text GLabel 2650 3900 0    60   Input ~ 0
 T2_Input_1
-Text HLabel 1600 3700 0    60   Input ~ 0
+Text GLabel 2650 4000 0    60   Input ~ 0
 T2_Enable_A
-Text HLabel 1600 3800 0    60   Input ~ 0
+Text GLabel 2650 4100 0    60   Input ~ 0
 T2_Input_2
-Text HLabel 1600 4000 0    60   Input ~ 0
+Text GLabel 2650 4300 0    60   Input ~ 0
 T2_Input_3
-Text HLabel 1600 4100 0    60   Input ~ 0
+Text GLabel 2650 4400 0    60   Input ~ 0
 T2_Enable_B
-Text HLabel 1600 4200 0    60   Input ~ 0
+Text GLabel 2650 4500 0    60   Input ~ 0
 T2_Input_4
 Wire Wire Line
-	1600 3600 1900 3600
+	2650 3900 2950 3900
 Wire Wire Line
-	1600 3700 1900 3700
+	2650 4000 2950 4000
 Wire Wire Line
-	1600 3800 1900 3800
+	2650 4100 2950 4100
 Wire Wire Line
-	1600 4000 1900 4000
+	2650 4300 2950 4300
 Wire Wire Line
-	1600 4100 1900 4100
+	2650 4400 2950 4400
 Wire Wire Line
-	1600 4200 1900 4200
-Text HLabel 1600 5700 0    60   Input ~ 0
+	2650 4500 2950 4500
+Text GLabel 2650 6000 0    60   Input ~ 0
 T3_Input_1
-Text HLabel 1600 5800 0    60   Input ~ 0
+Text GLabel 2650 6100 0    60   Input ~ 0
 T3_Enable_A
-Text HLabel 1600 5900 0    60   Input ~ 0
+Text GLabel 2650 6200 0    60   Input ~ 0
 T3_Input_2
-Text HLabel 1600 6100 0    60   Input ~ 0
+Text GLabel 2650 6400 0    60   Input ~ 0
 T3_Input_3
-Text HLabel 1600 6200 0    60   Input ~ 0
+Text GLabel 2650 6500 0    60   Input ~ 0
 T3_Enable_B
-Text HLabel 1600 6300 0    60   Input ~ 0
+Text GLabel 2650 6600 0    60   Input ~ 0
 T3_Input_4
 Wire Wire Line
-	1600 5700 1900 5700
+	2650 6000 2950 6000
 Wire Wire Line
-	1600 5800 1900 5800
+	2650 6100 2950 6100
 Wire Wire Line
-	1600 5900 1900 5900
+	2650 6200 2950 6200
 Wire Wire Line
-	1600 6100 1900 6100
+	2650 6400 2950 6400
 Wire Wire Line
-	1600 6200 1900 6200
+	2650 6500 2950 6500
 Wire Wire Line
-	1600 6300 1900 6300
-Text HLabel 3650 3600 2    60   Input ~ 0
+	2650 6600 2950 6600
+Text GLabel 4450 3950 2    60   Input ~ 0
 T2_Output_1
-Text HLabel 3650 3700 2    60   Input ~ 0
+Text GLabel 4450 4050 2    60   Input ~ 0
 T2_Output_2
-Text HLabel 3650 4000 2    60   Input ~ 0
+Text GLabel 4450 4350 2    60   Input ~ 0
 T2_Output_3
-Text HLabel 3650 4100 2    60   Input ~ 0
+Text GLabel 4450 4450 2    60   Input ~ 0
 T2_Output_4
 Wire Wire Line
-	3400 3600 3650 3600
+	4200 3950 4450 3950
 Wire Wire Line
-	3400 3700 3650 3700
+	4200 4050 4450 4050
 Wire Wire Line
-	3400 4000 3650 4000
+	4200 4350 4450 4350
 Wire Wire Line
-	3400 4100 3650 4100
-Text HLabel 3650 5700 2    60   Input ~ 0
+	4200 4450 4450 4450
+Text GLabel 4450 6050 2    60   Input ~ 0
 T3_Output_1
-Text HLabel 3650 5800 2    60   Input ~ 0
+Text GLabel 4450 6150 2    60   Input ~ 0
 T3_Output_2
-Text HLabel 3650 6100 2    60   Input ~ 0
+Text GLabel 4450 6450 2    60   Input ~ 0
 T3_Output_3
-Text HLabel 3650 6200 2    60   Input ~ 0
+Text GLabel 4450 6550 2    60   Input ~ 0
 T3_Output_4
 Wire Wire Line
-	3400 5700 3650 5700
+	4200 6050 4450 6050
 Wire Wire Line
-	3400 5800 3650 5800
+	4200 6150 4450 6150
 Wire Wire Line
-	3400 6100 3650 6100
+	4200 6450 4450 6450
 Wire Wire Line
-	3400 6200 3650 6200
-Text HLabel 8100 1600 2    60   Input ~ 0
+	4200 6550 4450 6550
+Text GLabel 8900 1950 2    60   Input ~ 0
 T4_Output_1
-Text HLabel 8100 1700 2    60   Input ~ 0
+Text GLabel 8900 2050 2    60   Input ~ 0
 T4_Output_2
-Text HLabel 8100 2000 2    60   Input ~ 0
+Text GLabel 8900 2350 2    60   Input ~ 0
 T4_Output_3
-Text HLabel 8100 2100 2    60   Input ~ 0
+Text GLabel 8900 2450 2    60   Input ~ 0
 T4_Output_4
 Wire Wire Line
-	7850 1600 8100 1600
+	8650 1950 8900 1950
 Wire Wire Line
-	7850 1700 8100 1700
+	8650 2050 8900 2050
 Wire Wire Line
-	7850 2000 8100 2000
+	8650 2350 8900 2350
 Wire Wire Line
-	7850 2100 8100 2100
-Text HLabel 8100 3650 2    60   Input ~ 0
-T5_Output_1
-Text HLabel 8100 3750 2    60   Input ~ 0
-T5_Output_2
-Text HLabel 8100 4050 2    60   Input ~ 0
+	8650 2450 8900 2450
+Text GLabel 8900 4400 2    60   Input ~ 0
 T5_Output_3
-Text HLabel 8100 4150 2    60   Input ~ 0
-T5_Output_4
 Wire Wire Line
-	7850 3650 8100 3650
+	8650 4000 8900 4000
 Wire Wire Line
-	7850 3750 8100 3750
+	8650 4100 8900 4100
 Wire Wire Line
-	7850 4050 8100 4050
+	8650 4400 8900 4400
 Wire Wire Line
-	7850 4150 8100 4150
-Text HLabel 6050 1600 0    60   Input ~ 0
+	8650 4500 8900 4500
+Text GLabel 7100 1900 0    60   Input ~ 0
 T4_Input_1
-Text HLabel 6050 1700 0    60   Input ~ 0
+Text GLabel 7100 2000 0    60   Input ~ 0
 T4_Enable_A
-Text HLabel 6050 1800 0    60   Input ~ 0
+Text GLabel 7100 2100 0    60   Input ~ 0
 T4_Input_2
-Text HLabel 6050 2000 0    60   Input ~ 0
+Text GLabel 7100 2300 0    60   Input ~ 0
 T4_Input_3
-Text HLabel 6050 2100 0    60   Input ~ 0
+Text GLabel 7100 2400 0    60   Input ~ 0
 T4_Enable_B
-Text HLabel 6050 2200 0    60   Input ~ 0
+Text GLabel 7100 2500 0    60   Input ~ 0
 T4_Input_4
 Wire Wire Line
-	6050 1600 6350 1600
+	7100 1900 7400 1900
 Wire Wire Line
-	6050 1700 6350 1700
+	7100 2000 7400 2000
 Wire Wire Line
-	6050 1800 6350 1800
+	7100 2100 7400 2100
 Wire Wire Line
-	6050 2000 6350 2000
+	7100 2300 7400 2300
 Wire Wire Line
-	6050 2100 6350 2100
+	7100 2400 7400 2400
 Wire Wire Line
-	6050 2200 6350 2200
-Text HLabel 6050 3650 0    60   Input ~ 0
+	7100 2500 7400 2500
+Text GLabel 7100 3950 0    60   Input ~ 0
 T5_Input_1
-Text HLabel 6050 3750 0    60   Input ~ 0
+Text GLabel 7100 4050 0    60   Input ~ 0
 T5_Enable_A
-Text HLabel 6050 3850 0    60   Input ~ 0
+Text GLabel 7100 4150 0    60   Input ~ 0
 T5_Input_2
-Text HLabel 6050 4050 0    60   Input ~ 0
+Text GLabel 7100 4350 0    60   Input ~ 0
 T5_Input_3
-Text HLabel 6050 4150 0    60   Input ~ 0
+Text GLabel 7100 4450 0    60   Input ~ 0
 T5_Enable_B
-Text HLabel 6050 4250 0    60   Input ~ 0
+Text GLabel 7100 4550 0    60   Input ~ 0
 T5_Input_4
 Wire Wire Line
-	6050 3650 6350 3650
+	7100 3950 7400 3950
 Wire Wire Line
-	6050 3750 6350 3750
+	7100 4050 7400 4050
 Wire Wire Line
-	6050 3850 6350 3850
+	7100 4150 7400 4150
 Wire Wire Line
-	6050 4050 6350 4050
+	7100 4350 7400 4350
 Wire Wire Line
-	6050 4150 6350 4150
+	7100 4450 7400 4450
 Wire Wire Line
-	6050 4250 6350 4250
-Text HLabel 1600 1500 0    60   Input ~ 0
+	7100 4550 7400 4550
+Text GLabel 2650 1800 0    60   Input ~ 0
 T1_Input_1
+$Sheet
+S 2950 1700 1250 800 
+U 5A20538E
+F0 "L298_1" 60
+F1 "L298.sch" 60
+F2 "Input_1" I L 2950 1800 60 
+F3 "Enable_A" I L 2950 1900 60 
+F4 "Input_2" I L 2950 2000 60 
+F5 "Input_3" I L 2950 2200 60 
+F6 "Enable_B" I L 2950 2300 60 
+F7 "Input_4" I L 2950 2400 60 
+F8 "Output_1" O R 4200 1850 60 
+F9 "Output_2" O R 4200 1950 60 
+F10 "Output_3" O R 4200 2250 60 
+F11 "Output_4" O R 4200 2350 60 
+$EndSheet
+Text GLabel 8900 4000 2    60   Input ~ 0
+T5_Output_1
+Text GLabel 8900 4100 2    60   Input ~ 0
+T5_Output_2
+Text GLabel 8900 4500 2    60   Input ~ 0
+T5_Output_4
+$Sheet
+S 2950 3800 1250 800 
+U 5A209EE3
+F0 "L298_2" 60
+F1 "L298.sch" 60
+F2 "Input_1" I L 2950 3900 60 
+F3 "Enable_A" I L 2950 4000 60 
+F4 "Input_2" I L 2950 4100 60 
+F5 "Input_3" I L 2950 4300 60 
+F6 "Enable_B" I L 2950 4400 60 
+F7 "Input_4" I L 2950 4500 60 
+F8 "Output_1" O R 4200 3950 60 
+F9 "Output_2" O R 4200 4050 60 
+F10 "Output_3" O R 4200 4350 60 
+F11 "Output_4" O R 4200 4450 60 
+$EndSheet
+$Sheet
+S 2950 5900 1250 800 
+U 5A20B0FB
+F0 "L298_3" 60
+F1 "L298.sch" 60
+F2 "Input_1" I L 2950 6000 60 
+F3 "Enable_A" I L 2950 6100 60 
+F4 "Input_2" I L 2950 6200 60 
+F5 "Input_3" I L 2950 6400 60 
+F6 "Enable_B" I L 2950 6500 60 
+F7 "Input_4" I L 2950 6600 60 
+F8 "Output_1" O R 4200 6050 60 
+F9 "Output_2" O R 4200 6150 60 
+F10 "Output_3" O R 4200 6450 60 
+F11 "Output_4" O R 4200 6550 60 
+$EndSheet
+$Sheet
+S 7400 1800 1250 800 
+U 5A20C9FB
+F0 "L298_4" 60
+F1 "L298.sch" 60
+F2 "Input_1" I L 7400 1900 60 
+F3 "Enable_A" I L 7400 2000 60 
+F4 "Input_2" I L 7400 2100 60 
+F5 "Input_3" I L 7400 2300 60 
+F6 "Enable_B" I L 7400 2400 60 
+F7 "Input_4" I L 7400 2500 60 
+F8 "Output_1" O R 8650 1950 60 
+F9 "Output_2" O R 8650 2050 60 
+F10 "Output_3" O R 8650 2350 60 
+F11 "Output_4" O R 8650 2450 60 
+$EndSheet
+$Sheet
+S 7400 3850 1250 800 
+U 5A20D3A3
+F0 "L298_5" 60
+F1 "L298.sch" 60
+F2 "Input_1" I L 7400 3950 60 
+F3 "Enable_A" I L 7400 4050 60 
+F4 "Input_2" I L 7400 4150 60 
+F5 "Input_3" I L 7400 4350 60 
+F6 "Enable_B" I L 7400 4450 60 
+F7 "Input_4" I L 7400 4550 60 
+F8 "Output_1" O R 8650 4000 60 
+F9 "Output_2" O R 8650 4100 60 
+F10 "Output_3" O R 8650 4400 60 
+F11 "Output_4" O R 8650 4500 60 
+$EndSheet
 $EndSCHEMATC
