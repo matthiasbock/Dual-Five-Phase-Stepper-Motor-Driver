@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:L298
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -32,12 +31,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Stepper Motor Driver-cache
+LIBS:Top-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""

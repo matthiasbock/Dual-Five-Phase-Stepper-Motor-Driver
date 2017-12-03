@@ -1,4 +1,12 @@
-
+# KiCAD backups
 *.bak
 *.bck
+
+# KiCAD temporary
+Top??????
+
+# Accidentally created project files for sub-schematics
+MCU.pro
+Transistors.pro
+L298.pro
 
