@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:L298
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -36,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -53,7 +54,7 @@ F0 "Microcontroller" 60
 F1 "MCU.sch" 60
 $EndSheet
 $Sheet
-S 4050 2200 1100 500 
+S 3750 2250 1150 500 
 U 5A23F11B
 F0 "Transistors" 60
 F1 "Transistors.sch" 60

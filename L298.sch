@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:L298
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -31,11 +32,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Top-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -51,7 +53,7 @@ U 1 1 5A2054BE
 P 6300 3900
 F 0 "T" H 6700 3200 60  0000 C CNN
 F 1 "L298" H 5800 4600 60  0000 C CNN
-F 2 "Multiwatt15" H 5500 3000 60  0001 C CNN
+F 2 "TO_SOT_Packages_THT:Multiwatt-15_Vertical_StaggeredType1" H 5500 3000 60  0001 C CNN
 F 3 "" H 6300 3900 60  0001 C CNN
 	1    6300 3900
 	1    0    0    -1  
