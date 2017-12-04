@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -47,6 +47,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 2650 1800 0    60   Input ~ 0
+T1_Input_1
 Text HLabel 2650 1900 0    60   Input ~ 0
 T1_Enable_A
 Text HLabel 2650 2000 0    60   Input ~ 0
@@ -97,6 +99,14 @@ Text HLabel 2650 4400 0    60   Input ~ 0
 T2_Enable_B
 Text HLabel 2650 4500 0    60   Input ~ 0
 T2_Input_4
+Text HLabel 4450 3950 2    60   Output ~ 0
+T2_Output_1
+Text HLabel 4450 4050 2    60   Output ~ 0
+T2_Output_2
+Text HLabel 4450 4350 2    60   Output ~ 0
+T2_Output_3
+Text HLabel 4450 4450 2    60   Output ~ 0
+T2_Output_4
 Wire Wire Line
 	2650 3900 2950 3900
 Wire Wire Line
@@ -121,6 +131,14 @@ Text HLabel 2650 6500 0    60   Input ~ 0
 T3_Enable_B
 Text HLabel 2650 6600 0    60   Input ~ 0
 T3_Input_4
+Text HLabel 4450 6050 2    60   Output ~ 0
+T3_Output_1
+Text HLabel 4450 6150 2    60   Output ~ 0
+T3_Output_2
+Text HLabel 4450 6450 2    60   Output ~ 0
+T3_Output_3
+Text HLabel 4450 6550 2    60   Output ~ 0
+T3_Output_4
 Wire Wire Line
 	2650 6000 2950 6000
 Wire Wire Line
@@ -133,14 +151,6 @@ Wire Wire Line
 	2650 6500 2950 6500
 Wire Wire Line
 	2650 6600 2950 6600
-Text HLabel 4450 3950 2    60   Output ~ 0
-T2_Output_1
-Text HLabel 4450 4050 2    60   Output ~ 0
-T2_Output_2
-Text HLabel 4450 4350 2    60   Output ~ 0
-T2_Output_3
-Text HLabel 4450 4450 2    60   Output ~ 0
-T2_Output_4
 Wire Wire Line
 	4200 3950 4450 3950
 Wire Wire Line
@@ -149,14 +159,6 @@ Wire Wire Line
 	4200 4350 4450 4350
 Wire Wire Line
 	4200 4450 4450 4450
-Text HLabel 4450 6050 2    60   Output ~ 0
-T3_Output_1
-Text HLabel 4450 6150 2    60   Output ~ 0
-T3_Output_2
-Text HLabel 4450 6450 2    60   Output ~ 0
-T3_Output_3
-Text HLabel 4450 6550 2    60   Output ~ 0
-T3_Output_4
 Wire Wire Line
 	4200 6050 4450 6050
 Wire Wire Line
@@ -165,6 +167,18 @@ Wire Wire Line
 	4200 6450 4450 6450
 Wire Wire Line
 	4200 6550 4450 6550
+Text HLabel 7100 1900 0    60   Input ~ 0
+T4_Input_1
+Text HLabel 7100 2000 0    60   Input ~ 0
+T4_Enable_A
+Text HLabel 7100 2100 0    60   Input ~ 0
+T4_Input_2
+Text HLabel 7100 2300 0    60   Input ~ 0
+T4_Input_3
+Text HLabel 7100 2400 0    60   Input ~ 0
+T4_Enable_B
+Text HLabel 7100 2500 0    60   Input ~ 0
+T4_Input_4
 Text HLabel 8900 1950 2    60   Output ~ 0
 T4_Output_1
 Text HLabel 8900 2050 2    60   Output ~ 0
@@ -181,8 +195,6 @@ Wire Wire Line
 	8650 2350 8900 2350
 Wire Wire Line
 	8650 2450 8900 2450
-Text HLabel 8900 4400 2    60   Input ~ 0
-T5_Output_3
 Wire Wire Line
 	8650 4000 8900 4000
 Wire Wire Line
@@ -191,18 +203,6 @@ Wire Wire Line
 	8650 4400 8900 4400
 Wire Wire Line
 	8650 4500 8900 4500
-Text HLabel 7100 1900 0    60   Input ~ 0
-T4_Input_1
-Text HLabel 7100 2000 0    60   Input ~ 0
-T4_Enable_A
-Text HLabel 7100 2100 0    60   Input ~ 0
-T4_Input_2
-Text HLabel 7100 2300 0    60   Input ~ 0
-T4_Input_3
-Text HLabel 7100 2400 0    60   Input ~ 0
-T4_Enable_B
-Text HLabel 7100 2500 0    60   Input ~ 0
-T4_Input_4
 Wire Wire Line
 	7100 1900 7400 1900
 Wire Wire Line
@@ -227,6 +227,14 @@ Text HLabel 7100 4450 0    60   Input ~ 0
 T5_Enable_B
 Text HLabel 7100 4550 0    60   Input ~ 0
 T5_Input_4
+Text HLabel 8900 4000 2    60   Output ~ 0
+T5_Output_1
+Text HLabel 8900 4100 2    60   Output ~ 0
+T5_Output_2
+Text HLabel 8900 4400 2    60   Output ~ 0
+T5_Output_3
+Text HLabel 8900 4500 2    60   Output ~ 0
+T5_Output_4
 Wire Wire Line
 	7100 3950 7400 3950
 Wire Wire Line
@@ -239,8 +247,6 @@ Wire Wire Line
 	7100 4450 7400 4450
 Wire Wire Line
 	7100 4550 7400 4550
-Text HLabel 2650 1800 0    60   Input ~ 0
-T1_Input_1
 $Sheet
 S 2950 1700 1250 800 
 U 5A20538E
@@ -257,12 +263,6 @@ F9 "Output_2" O R 4200 1950 60
 F10 "Output_3" O R 4200 2250 60 
 F11 "Output_4" O R 4200 2350 60 
 $EndSheet
-Text HLabel 8900 4000 2    60   Output ~ 0
-T5_Output_1
-Text HLabel 8900 4100 2    60   Output ~ 0
-T5_Output_2
-Text HLabel 8900 4500 2    60   Output ~ 0
-T5_Output_4
 $Sheet
 S 2950 3800 1250 800 
 U 5A209EE3
