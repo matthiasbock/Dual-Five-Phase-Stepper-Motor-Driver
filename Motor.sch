@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -48,10 +48,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x10 M-J
+L Conn_01x10 M-J1
 U 1 1 5A2524C5
 P 4850 3900
-F 0 "M-J" H 4850 4400 50  0000 C CNN
+AR Path="/5A24BC5B/5A2524C5" Ref="M-J1"  Part="1" 
+AR Path="/5A257129/5A2524C5" Ref="M-J2"  Part="1" 
+F 0 "M-J2" H 4850 4400 50  0000 C CNN
 F 1 "1x10 pin connector" H 4850 3300 50  0000 C CNN
 F 2 "" H 4850 3900 50  0001 C CNN
 F 3 "" H 4850 3900 50  0001 C CNN

@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 5 11
 Title ""
 Date ""
 Rev ""
@@ -47,46 +47,46 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2650 1800 0    60   Input ~ 0
+Text HLabel 2650 2650 0    60   Input ~ 0
 T1_Input_1
-Text HLabel 2650 1900 0    60   Input ~ 0
+Text HLabel 2650 2750 0    60   Input ~ 0
 T1_Enable_A
-Text HLabel 2650 2000 0    60   Input ~ 0
+Text HLabel 2650 2850 0    60   Input ~ 0
 T1_Input_2
-Text HLabel 2650 2200 0    60   Input ~ 0
+Text HLabel 2650 3050 0    60   Input ~ 0
 T1_Input_3
-Text HLabel 2650 2300 0    60   Input ~ 0
+Text HLabel 2650 3150 0    60   Input ~ 0
 T1_Enable_B
-Text HLabel 2650 2400 0    60   Input ~ 0
+Text HLabel 2650 3250 0    60   Input ~ 0
 T1_Input_4
-Text HLabel 4450 1850 2    60   Output ~ 0
+Text HLabel 4450 2700 2    60   Output ~ 0
 T1_Output_1
-Text HLabel 4450 1950 2    60   Output ~ 0
+Text HLabel 4450 2800 2    60   Output ~ 0
 T1_Output_2
-Text HLabel 4450 2250 2    60   Output ~ 0
+Text HLabel 4450 3100 2    60   Output ~ 0
 T1_Output_3
-Text HLabel 4450 2350 2    60   Output ~ 0
+Text HLabel 4450 3200 2    60   Output ~ 0
 T1_Output_4
 Wire Wire Line
-	2650 1800 2950 1800
+	2650 2650 2950 2650
 Wire Wire Line
-	2650 1900 2950 1900
+	2650 2750 2950 2750
 Wire Wire Line
-	2650 2000 2950 2000
+	2650 2850 2950 2850
 Wire Wire Line
-	2650 2200 2950 2200
+	2650 3050 2950 3050
 Wire Wire Line
-	2650 2300 2950 2300
+	2650 3150 2950 3150
 Wire Wire Line
-	2650 2400 2950 2400
+	2650 3250 2950 3250
 Wire Wire Line
-	4200 1850 4450 1850
+	4200 2700 4450 2700
 Wire Wire Line
-	4200 1950 4450 1950
+	4200 2800 4450 2800
 Wire Wire Line
-	4200 2250 4450 2250
+	4200 3100 4450 3100
 Wire Wire Line
-	4200 2350 4450 2350
+	4200 3200 4450 3200
 Text HLabel 2650 3900 0    60   Input ~ 0
 T2_Input_1
 Text HLabel 2650 4000 0    60   Input ~ 0
@@ -119,38 +119,38 @@ Wire Wire Line
 	2650 4400 2950 4400
 Wire Wire Line
 	2650 4500 2950 4500
-Text HLabel 2650 6000 0    60   Input ~ 0
+Text HLabel 2650 5200 0    60   Input ~ 0
 T3_Input_1
-Text HLabel 2650 6100 0    60   Input ~ 0
+Text HLabel 2650 5300 0    60   Input ~ 0
 T3_Enable_A
-Text HLabel 2650 6200 0    60   Input ~ 0
+Text HLabel 2650 5400 0    60   Input ~ 0
 T3_Input_2
-Text HLabel 2650 6400 0    60   Input ~ 0
+Text HLabel 2650 5600 0    60   Input ~ 0
 T3_Input_3
-Text HLabel 2650 6500 0    60   Input ~ 0
+Text HLabel 2650 5700 0    60   Input ~ 0
 T3_Enable_B
-Text HLabel 2650 6600 0    60   Input ~ 0
+Text HLabel 2650 5800 0    60   Input ~ 0
 T3_Input_4
-Text HLabel 4450 6050 2    60   Output ~ 0
+Text HLabel 4450 5250 2    60   Output ~ 0
 T3_Output_1
-Text HLabel 4450 6150 2    60   Output ~ 0
+Text HLabel 4450 5350 2    60   Output ~ 0
 T3_Output_2
-Text HLabel 4450 6450 2    60   Output ~ 0
+Text HLabel 4450 5650 2    60   Output ~ 0
 T3_Output_3
-Text HLabel 4450 6550 2    60   Output ~ 0
+Text HLabel 4450 5750 2    60   Output ~ 0
 T3_Output_4
 Wire Wire Line
-	2650 6000 2950 6000
+	2650 5200 2950 5200
 Wire Wire Line
-	2650 6100 2950 6100
+	2650 5300 2950 5300
 Wire Wire Line
-	2650 6200 2950 6200
+	2650 5400 2950 5400
 Wire Wire Line
-	2650 6400 2950 6400
+	2650 5600 2950 5600
 Wire Wire Line
-	2650 6500 2950 6500
+	2650 5700 2950 5700
 Wire Wire Line
-	2650 6600 2950 6600
+	2650 5800 2950 5800
 Wire Wire Line
 	4200 3950 4450 3950
 Wire Wire Line
@@ -160,41 +160,41 @@ Wire Wire Line
 Wire Wire Line
 	4200 4450 4450 4450
 Wire Wire Line
-	4200 6050 4450 6050
+	4200 5250 4450 5250
 Wire Wire Line
-	4200 6150 4450 6150
+	4200 5350 4450 5350
 Wire Wire Line
-	4200 6450 4450 6450
+	4200 5650 4450 5650
 Wire Wire Line
-	4200 6550 4450 6550
-Text HLabel 7100 1900 0    60   Input ~ 0
+	4200 5750 4450 5750
+Text HLabel 7100 2750 0    60   Input ~ 0
 T4_Input_1
-Text HLabel 7100 2000 0    60   Input ~ 0
+Text HLabel 7100 2850 0    60   Input ~ 0
 T4_Enable_A
-Text HLabel 7100 2100 0    60   Input ~ 0
+Text HLabel 7100 2950 0    60   Input ~ 0
 T4_Input_2
-Text HLabel 7100 2300 0    60   Input ~ 0
+Text HLabel 7100 3150 0    60   Input ~ 0
 T4_Input_3
-Text HLabel 7100 2400 0    60   Input ~ 0
+Text HLabel 7100 3250 0    60   Input ~ 0
 T4_Enable_B
-Text HLabel 7100 2500 0    60   Input ~ 0
+Text HLabel 7100 3350 0    60   Input ~ 0
 T4_Input_4
-Text HLabel 8900 1950 2    60   Output ~ 0
+Text HLabel 8900 2800 2    60   Output ~ 0
 T4_Output_1
-Text HLabel 8900 2050 2    60   Output ~ 0
+Text HLabel 8900 2900 2    60   Output ~ 0
 T4_Output_2
-Text HLabel 8900 2350 2    60   Output ~ 0
+Text HLabel 8900 3200 2    60   Output ~ 0
 T4_Output_3
-Text HLabel 8900 2450 2    60   Output ~ 0
+Text HLabel 8900 3300 2    60   Output ~ 0
 T4_Output_4
 Wire Wire Line
-	8650 1950 8900 1950
+	8650 2800 8900 2800
 Wire Wire Line
-	8650 2050 8900 2050
+	8650 2900 8900 2900
 Wire Wire Line
-	8650 2350 8900 2350
+	8650 3200 8900 3200
 Wire Wire Line
-	8650 2450 8900 2450
+	8650 3300 8900 3300
 Wire Wire Line
 	8650 4000 8900 4000
 Wire Wire Line
@@ -204,17 +204,17 @@ Wire Wire Line
 Wire Wire Line
 	8650 4500 8900 4500
 Wire Wire Line
-	7100 1900 7400 1900
+	7100 2750 7400 2750
 Wire Wire Line
-	7100 2000 7400 2000
+	7100 2850 7400 2850
 Wire Wire Line
-	7100 2100 7400 2100
+	7100 2950 7400 2950
 Wire Wire Line
-	7100 2300 7400 2300
+	7100 3150 7400 3150
 Wire Wire Line
-	7100 2400 7400 2400
+	7100 3250 7400 3250
 Wire Wire Line
-	7100 2500 7400 2500
+	7100 3350 7400 3350
 Text HLabel 7100 3950 0    60   Input ~ 0
 T5_Input_1
 Text HLabel 7100 4050 0    60   Input ~ 0
@@ -248,20 +248,20 @@ Wire Wire Line
 Wire Wire Line
 	7100 4550 7400 4550
 $Sheet
-S 2950 1700 1250 800 
+S 2950 2550 1250 800 
 U 5A20538E
 F0 "L298_1" 60
 F1 "L298.sch" 60
-F2 "Input_1" I L 2950 1800 60 
-F3 "Enable_A" I L 2950 1900 60 
-F4 "Input_2" I L 2950 2000 60 
-F5 "Input_3" I L 2950 2200 60 
-F6 "Enable_B" I L 2950 2300 60 
-F7 "Input_4" I L 2950 2400 60 
-F8 "Output_1" O R 4200 1850 60 
-F9 "Output_2" O R 4200 1950 60 
-F10 "Output_3" O R 4200 2250 60 
-F11 "Output_4" O R 4200 2350 60 
+F2 "Input_1" I L 2950 2650 60 
+F3 "Enable_A" I L 2950 2750 60 
+F4 "Input_2" I L 2950 2850 60 
+F5 "Input_3" I L 2950 3050 60 
+F6 "Enable_B" I L 2950 3150 60 
+F7 "Input_4" I L 2950 3250 60 
+F8 "Output_1" O R 4200 2700 60 
+F9 "Output_2" O R 4200 2800 60 
+F10 "Output_3" O R 4200 3100 60 
+F11 "Output_4" O R 4200 3200 60 
 $EndSheet
 $Sheet
 S 2950 3800 1250 800 
@@ -280,36 +280,36 @@ F10 "Output_3" O R 4200 4350 60
 F11 "Output_4" O R 4200 4450 60 
 $EndSheet
 $Sheet
-S 2950 5900 1250 800 
+S 2950 5100 1250 800 
 U 5A20B0FB
 F0 "L298_3" 60
 F1 "L298.sch" 60
-F2 "Input_1" I L 2950 6000 60 
-F3 "Enable_A" I L 2950 6100 60 
-F4 "Input_2" I L 2950 6200 60 
-F5 "Input_3" I L 2950 6400 60 
-F6 "Enable_B" I L 2950 6500 60 
-F7 "Input_4" I L 2950 6600 60 
-F8 "Output_1" O R 4200 6050 60 
-F9 "Output_2" O R 4200 6150 60 
-F10 "Output_3" O R 4200 6450 60 
-F11 "Output_4" O R 4200 6550 60 
+F2 "Input_1" I L 2950 5200 60 
+F3 "Enable_A" I L 2950 5300 60 
+F4 "Input_2" I L 2950 5400 60 
+F5 "Input_3" I L 2950 5600 60 
+F6 "Enable_B" I L 2950 5700 60 
+F7 "Input_4" I L 2950 5800 60 
+F8 "Output_1" O R 4200 5250 60 
+F9 "Output_2" O R 4200 5350 60 
+F10 "Output_3" O R 4200 5650 60 
+F11 "Output_4" O R 4200 5750 60 
 $EndSheet
 $Sheet
-S 7400 1800 1250 800 
+S 7400 2650 1250 800 
 U 5A20C9FB
 F0 "L298_4" 60
 F1 "L298.sch" 60
-F2 "Input_1" I L 7400 1900 60 
-F3 "Enable_A" I L 7400 2000 60 
-F4 "Input_2" I L 7400 2100 60 
-F5 "Input_3" I L 7400 2300 60 
-F6 "Enable_B" I L 7400 2400 60 
-F7 "Input_4" I L 7400 2500 60 
-F8 "Output_1" O R 8650 1950 60 
-F9 "Output_2" O R 8650 2050 60 
-F10 "Output_3" O R 8650 2350 60 
-F11 "Output_4" O R 8650 2450 60 
+F2 "Input_1" I L 7400 2750 60 
+F3 "Enable_A" I L 7400 2850 60 
+F4 "Input_2" I L 7400 2950 60 
+F5 "Input_3" I L 7400 3150 60 
+F6 "Enable_B" I L 7400 3250 60 
+F7 "Input_4" I L 7400 3350 60 
+F8 "Output_1" O R 8650 2800 60 
+F9 "Output_2" O R 8650 2900 60 
+F10 "Output_3" O R 8650 3200 60 
+F11 "Output_4" O R 8650 3300 60 
 $EndSheet
 $Sheet
 S 7400 3850 1250 800 
@@ -326,5 +326,61 @@ F8 "Output_1" O R 8650 4000 60
 F9 "Output_2" O R 8650 4100 60 
 F10 "Output_3" O R 8650 4400 60 
 F11 "Output_4" O R 8650 4500 60 
+$EndSheet
+Wire Wire Line
+	8650 5250 8900 5250
+Wire Wire Line
+	8650 5350 8900 5350
+Wire Wire Line
+	8650 5650 8900 5650
+Wire Wire Line
+	8650 5750 8900 5750
+Text HLabel 7100 5200 0    60   Input ~ 0
+T6_Input_1
+Text HLabel 7100 5300 0    60   Input ~ 0
+T6_Enable_A
+Text HLabel 7100 5400 0    60   Input ~ 0
+T6_Input_2
+Text HLabel 7100 5600 0    60   Input ~ 0
+T6_Input_3
+Text HLabel 7100 5700 0    60   Input ~ 0
+T6_Enable_B
+Text HLabel 7100 5800 0    60   Input ~ 0
+T6_Input_4
+Text HLabel 8900 5250 2    60   Output ~ 0
+T6_Output_1
+Text HLabel 8900 5350 2    60   Output ~ 0
+T6_Output_2
+Text HLabel 8900 5650 2    60   Output ~ 0
+T6_Output_3
+Text HLabel 8900 5750 2    60   Output ~ 0
+T6_Output_4
+Wire Wire Line
+	7100 5200 7400 5200
+Wire Wire Line
+	7100 5300 7400 5300
+Wire Wire Line
+	7100 5400 7400 5400
+Wire Wire Line
+	7100 5600 7400 5600
+Wire Wire Line
+	7100 5700 7400 5700
+Wire Wire Line
+	7100 5800 7400 5800
+$Sheet
+S 7400 5100 1250 800 
+U 5A274D45
+F0 "L298_6" 60
+F1 "L298.sch" 60
+F2 "Input_1" I L 7400 5200 60 
+F3 "Enable_A" I L 7400 5300 60 
+F4 "Input_2" I L 7400 5400 60 
+F5 "Input_3" I L 7400 5600 60 
+F6 "Enable_B" I L 7400 5700 60 
+F7 "Input_4" I L 7400 5800 60 
+F8 "Output_1" O R 8650 5250 60 
+F9 "Output_2" O R 8650 5350 60 
+F10 "Output_3" O R 8650 5650 60 
+F11 "Output_4" O R 8650 5750 60 
 $EndSheet
 $EndSCHEMATC
